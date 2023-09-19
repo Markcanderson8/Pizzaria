@@ -8,6 +8,8 @@ const cancelButton = document
 
 const username = document.getElementById("username");
 const password = document.getElementById("password");
+
+//API >>>>
 let user = "mark777";
 let pass = "test";
 
