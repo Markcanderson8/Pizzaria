@@ -34,19 +34,15 @@ text-align: center;
 }
 
 .login{
-border: 1px solid #000000;
-border-radius: 50px;
-width: 350px;
-height: auto;
-margin-top: 250px;
-margin-left: 600px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    margin-top: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid #000000;
     border-radius: 20px;
-    width: 330px;
     margin-top: 5rem;
 }
 
@@ -84,17 +80,17 @@ margin-left: 15px;
 
 .username {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .password {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .buttons {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .username > input {
@@ -123,4 +119,8 @@ margin-left: 15px;
 
 .homeLink:hover {
     background-color: lightblue;
+}
+
+.heading {
+    margin-bottom: 2rem;
 }
