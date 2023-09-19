@@ -8,8 +8,7 @@ text-align: center;
 }
 
 .nav{
-float: left;
-margin-left: 575px;
+    text-align: center;
 }
 
 .nav a{
@@ -29,25 +28,72 @@ text-align: center;
 }
 
 .login{
-border: 1px solid #000000;
-width: 350px;
-height: auto;
-margin-top: 250px;
-margin-left: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 330px;
+    margin-top: 5rem;
 }
 
 .register{
-border: 1px solid #000000;
-width: 250px;
-height: auto;
-margin-top: 200px;
-margin-left: 600px;
+    border: 1px solid #000000;
+    width: 250px;
+    height: auto;
+    margin-top: 200px;
+    margin-left: 600px;
 }
 
 label{
 margin-left: 15px;
 }
 
-input{
-margin-left: 25px;
+.frontPageBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.frontPageImg {
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+
+.inputFields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.username {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.password {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.username > input {
+    float: right;
+}
+
+.password > input {
+    float: right;
+}
+
+.centerBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
