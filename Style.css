@@ -1,6 +1,9 @@
 /* CSS Document */
 body{
 background-color: #FFFFCC;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 h1{
@@ -8,14 +11,17 @@ text-align: center;
 }
 
 .nav{
-    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightcyan;
+    height: 100px;
 }
 
 .nav a{
-margin-left: 50px;
-color: #0000FF;
+color: black;
 text-decoration: none;
-border-left: 1px solid #000;
 }
 
 p{
@@ -96,4 +102,18 @@ margin-left: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.homeLink {
+    text-align: center;
+    width: 25%;
+    background-color: lightcyan;
+    padding: 40px;
+    margin: 0;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.homeLink:hover {
+    background-color: lightblue;
 }
