@@ -15,7 +15,7 @@ function submit(e) {
   e.preventDefault();
   if (validateUser(user) && validatePass(pass)) {
     console.log("access granted");
-    window.location.replace("/Home.html");
+    window.location.replace("/pages/Home.html");
   } else {
     console.log("access denied");
   }
