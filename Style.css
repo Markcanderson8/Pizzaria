@@ -30,6 +30,7 @@ text-align: center;
 
 .login{
 border: 1px solid #000000;
+border-radius: 50px;
 width: 350px;
 height: auto;
 margin-top: 250px;
@@ -38,6 +39,7 @@ margin-left: 600px;
 
 .register{
 border: 1px solid #000000;
+border-radius: 50px;
 width: 250px;
 height: auto;
 margin-top: 200px;
