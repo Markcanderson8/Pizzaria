@@ -43,3 +43,11 @@ height: auto;
 margin-top: 200px;
 margin-left: 600px;
 }
+
+label{
+margin-left: 15px;
+}
+
+input{
+margin-left: 25px;
+}
